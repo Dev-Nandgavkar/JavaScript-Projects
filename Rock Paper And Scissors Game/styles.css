@@ -1,60 +1,85 @@
 body {
-    background-color: rgb(25, 25, 25);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .title {
-    font-size: 30px;
-    font-weight: bold;
-  }
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
 
-  .move-icon {
-    height: 50px;
-  }
+.move-icon {
+  height: 50px;
+}
 
-  .move-button {
-    background-color: transparent;
-    border: 3px solid white;
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    margin-right: 10px;
-    cursor: pointer;
-  }
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
 
-  .versus-result {
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 50px;
-  }
+.versus-result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
 
-  .css-score {
-    margin-top: 60px;
-  }
+.Result-css{
+  font-weight: bold
+}
 
-  .reset-score-button {
-    background-color: white;
-    border: none;
-    font-size: 15px;
-    padding: 8px 15px;
-    cursor: pointer;
-  }
+.moves-css{
+  margin-top: 30px;
+  display: flex;
+  width: 250px;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .rules {
-    margin-top: -20px;
-  }
+.css-score {
+  margin-top: 30px;
+}
 
-  .dis-versus {
-    margin-top: -20px;
-  }
+.reset-score-button {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 15px;
+  cursor: pointer;
+}
 
-  .score-points {
-    margin-top: -15px;
-  }
+.rules {
+  margin-top: -20px;
+}
 
-  .op-result,
-  .users,
-  .comps {
-    font-weight: normal;
-  }
+.Rule_1 {
+  display: flex;
+  width: 300px;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dis-versus {
+  margin-top: -20px;
+}
+
+.score-points {
+  margin-top: -15px;
+}
+
+.op-result,
+.users,
+.comps {
+  font-weight: normal;
+}
